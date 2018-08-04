@@ -1,0 +1,294 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Genealogy tree</title>
+<link rel="stylesheet" type="text/css" href="estilos.css">
+<script
+			  src="https://code.jquery.com/jquery-3.3.1.js"
+			  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<h1>Daxcsa Organization chart</h1>
+
+<div class="ficha" id="ficha1">
+	<div class="fichahead" id="fichahead1">
+			<div class="fichafoto" id="fichafoto1">
+				<img src="man.png">
+			</div>
+			
+			<div class="fichanombre" id="fichanombre1">
+				<h3 id="full_name">NOMBRE</h3>
+			</div>
+	</div>
+	
+	<div class="fichacuerpo" id="fichacuerpo1">
+		<table class="tabladatosficha" id="tabladatosficha1">
+		<tr>
+			<td>username</td>
+			<td class="datausername" id="datausername1">data1</td>
+		</tr>
+		<tr>
+			<td>Estado</td>
+			<td class="status" id="status1">data2</td>
+		</tr>
+		<tr>
+			<td>Nombre de Producto</td>
+			<td class="product_name" id="product_name1">data3</td>
+		</tr>
+		<tr>
+			<td>Categoria</td>
+			<td class="category_name" id="category_name1">data4</td>
+		</tr>
+		</table>
+
+	</div>
+</div>				
+
+<div id="hijosdiv">
+	<div class="ficha" id="ficha2">
+		<div class="fichahead" id="fichahead2">
+				<div class="fichafoto" id="fichafoto2">
+					<img src="man.png">
+				</div>
+				
+				<div class="fichanombre" id="fichanombre2">
+					<h3 id="full_name">NOMBRE</h3>
+				</div>
+		</div>
+		
+		<div class="fichacuerpo" id="fichacuerpo1">
+			<table class="tabladatosficha" id="tabladatosficha2">
+			<tr>
+				<td>username</td>
+				<td class="datausername" id="datausername2">data1</td>
+			</tr>
+			<tr>
+				<td>Estado</td>
+				<td class="status" id="status2">data2</td>
+			</tr>
+			<tr>
+				<td>Nombre de Producto</td>
+				<td class="product_name" id="product_name2">data3</td>
+			</tr>
+			<tr>
+				<td>Categoria</td>
+				<td class="category_name" id="category_name2">data4</td>
+			</tr>
+			</table>
+
+		</div>
+	</div>
+
+	<div class="ficha" id="ficha3">
+		<div class="fichahead" id="fichahead3">
+				<div class="fichafoto" id="fichafoto3">
+					<img src="man.png">
+				</div>
+				
+				<div class="fichanombre" id="fichanombre3">
+					<h3 id="full_name">NOMBRE</h3>
+				</div>
+		</div>
+		
+		<div class="fichacuerpo" id="fichacuerpo3">
+			<table class="tabladatosficha" id="tabladatosficha3">
+			<tr>
+				<td>username</td>
+				<td class="datausername" id="datausername3">data1</td>
+			</tr>
+			<tr>
+				<td>Estado</td>
+				<td class="status" id="status3">data2</td>
+			</tr>
+			<tr>
+				<td>Nombre de Producto</td>
+				<td class="product_name" id="product_name3">data3</td>
+			</tr>
+			<tr>
+				<td>Categoria</td>
+				<td class="category_name" id="category_name3">data4</td>
+			</tr>
+			</table>
+
+		</div>
+	</div>	
+</div>				
+
+<div id="nietosdiv">
+	<div id="nietos1">
+		<div class="ficha" id="ficha4">
+			<div class="fichahead" id="fichahead4">
+					<div class="fichafoto" id="fichafoto4">
+						<img src="man.png">
+					</div>
+					
+					<div class="fichanombre" id="fichanombre4">
+						<h3 id="full_name">NOMBRE</h3>
+					</div>
+			</div>
+			
+			<div class="fichacuerpo" id="fichacuerpo4">
+				<table class="tabladatosficha" id="tabladatosficha4">
+				<tr>
+					<td>username</td>
+					<td class="datausername" id="datausername4">data1</td>
+				</tr>
+				<tr>
+					<td>Estado</td>
+					<td class="status" id="status4">data2</td>
+				</tr>
+				<tr>
+					<td>Nombre de Producto</td>
+					<td class="product_name" id="product_name4">data3</td>
+				</tr>
+				<tr>
+					<td>Categoria</td>
+					<td class="category_name" id="category_name4">data4</td>
+				</tr>
+				</table>
+
+			</div>
+		</div>
+
+		<div class="ficha" id="ficha5">
+			<div class="fichahead" id="fichahead5">
+					<div class="fichafoto" id="fichafoto5">
+						<img src="man.png">
+					</div>
+					
+					<div class="fichanombre" id="fichanombre5">
+						<h3 id="full_name">NOMBRE</h3>
+					</div>
+			</div>
+			
+			<div class="fichacuerpo" id="fichacuerpo5">
+				<table class="tabladatosficha" id="tabladatosficha5">
+				<tr>
+					<td>username</td>
+					<td class="datausername" id="datausername5">data1</td>
+				</tr>
+				<tr>
+					<td>Estado</td>
+					<td class="status" id="status5">data2</td>
+				</tr>
+				<tr>
+					<td>Nombre de Producto</td>
+					<td class="product_name" id="product_name5">data3</td>
+				</tr>
+				<tr>
+					<td>Categoria</td>
+					<td class="category_name" id="category_name5">data4</td>
+				</tr>
+				</table>
+
+			</div>
+		</div>
+	</div>
+
+<div id="nietos2">
+	<div class="ficha" id="ficha6">
+		<div class="fichahead" id="fichahead6">
+				<div class="fichafoto" id="fichafoto6">
+					<img src="man.png">
+				</div>
+				
+				<div class="fichanombre" id="fichanombre6">
+					<h3 id="full_name">NOMBRE</h3>
+				</div>
+		</div>
+		
+		<div class="fichacuerpo" id="fichacuerpo6">
+			<table class="tabladatosficha" id="tabladatosficha6">
+			<tr>
+				<td>username</td>
+				<td class="datausername" id="datausername6">data1</td>
+			</tr>
+			<tr>
+				<td>Estado</td>
+				<td class="status" id="status6">data2</td>
+			</tr>
+			<tr>
+				<td>Nombre de Producto</td>
+				<td class="product_name" id="product_name6">data3</td>
+			</tr>
+			<tr>
+				<td>Categoria</td>
+				<td class="category_name" id="category_name6">data4</td>
+			</tr>
+			</table>
+
+		</div>
+	</div>
+</div>
+
+	</div>			
+</div>		
+
+</div>	
+
+
+<script>
+var xmlhttp = new XMLHttpRequest();
+xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var myObj = JSON.parse(this.responseText);
+    
+    document.getElementById("fichanombre1").innerHTML = myObj.data.attributes[0].full_name;
+    document.getElementById("datausername1").innerHTML = myObj.data.attributes[0].username;
+    document.getElementById("status1").innerHTML = myObj.data.attributes[0].status;
+    document.getElementById("product_name1").innerHTML = myObj.data.attributes[0].product_name;
+    document.getElementById("category_name1").innerHTML = myObj.data.attributes[0].category_name;
+        
+     document.getElementById("fichanombre2").innerHTML = myObj.data.attributes[0].children[0].full_name;  
+     document.getElementById("datausername2").innerHTML = myObj.data.attributes[0].children[0].username;
+     document.getElementById("status2").innerHTML = myObj.data.attributes[0].children[0].status; 
+     document.getElementById("product_name2").innerHTML = myObj.data.attributes[0].children[0].product_name;
+     document.getElementById("category_name2").innerHTML = myObj.data.attributes[0].children[0].category_name;
+
+     document.getElementById("fichanombre3").innerHTML = myObj.data.attributes[0].children[1].full_name;  
+     document.getElementById("datausername3").innerHTML = myObj.data.attributes[0].children[1].username;
+     document.getElementById("status3").innerHTML = myObj.data.attributes[0].children[1].status; 
+     document.getElementById("product_name3").innerHTML = myObj.data.attributes[0].children[1].product_name;
+     document.getElementById("category_name3").innerHTML = myObj.data.attributes[0].children[1].category_name; 
+
+     document.getElementById("fichanombre4").innerHTML = myObj.data.attributes[0].children[0].children[0].full_name;  
+     document.getElementById("datausername4").innerHTML = myObj.data.attributes[0].children[0].children[0].username;
+     document.getElementById("status4").innerHTML = myObj.data.attributes[0].children[0].children[0].status; 
+     document.getElementById("product_name4").innerHTML = myObj.data.attributes[0].children[0].children[0].product_name;
+     document.getElementById("category_name4").innerHTML = myObj.data.attributes[0].children[0].children[0].category_name;
+
+     document.getElementById("fichanombre5").innerHTML = myObj.data.attributes[0].children[0].children[1].full_name;  
+     document.getElementById("datausername5").innerHTML = myObj.data.attributes[0].children[0].children[1].username;
+     document.getElementById("status5").innerHTML = myObj.data.attributes[0].children[0].children[1].status; 
+     document.getElementById("product_name5").innerHTML = myObj.data.attributes[0].children[0].children[1].product_name;
+     document.getElementById("category_name5").innerHTML = myObj.data.attributes[0].children[0].children[1].category_name;
+
+     document.getElementById("fichanombre6").innerHTML = myObj.data.attributes[0].children[1].children[0].full_name;  
+     document.getElementById("datausername6").innerHTML = myObj.data.attributes[0].children[1].children[0].username;
+     document.getElementById("status6").innerHTML = myObj.data.attributes[0].children[1].children[0].status; 
+     document.getElementById("product_name6").innerHTML = myObj.data.attributes[0].children[1].children[0].product_name;
+     document.getElementById("category_name6").innerHTML = myObj.data.attributes[0].children[1].children[0].category_name;
+
+     document.getElementById("fichanombre7").innerHTML = myObj.data.attributes[0].children[1].children[1].full_name;  
+     document.getElementById("datausername7").innerHTML = myObj.data.attributes[0].children[1].children[1].username;
+     document.getElementById("status7").innerHTML = myObj.data.attributes[0].children[1].children[1].status; 
+     document.getElementById("product_name7").innerHTML = myObj.data.attributes[0].children[1].children[1].product_name;
+     document.getElementById("category_name7").innerHTML = myObj.data.attributes[0].children[1].children[1].category_name;                                
+    }
+
+};
+xmlhttp.open("GET", "Daxcsa.json", true);
+xmlhttp.send();
+
+
+
+</script>
+
+
+
+
+</body>
+</html> 
